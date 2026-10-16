@@ -1,0 +1,13 @@
+<!doctype html><meta charset="utf-8"><title>Vyntaris packages</title>
+<body style="font:15px/1.6 system-ui;background:#1e1e2e;color:#cdd6f4;padding:3em;max-width:44em">
+<h1 style="color:#cba6f7">Vyntaris packages</h1>
+<p>The package repository of Vyntaris: pacman reads it. Current:</p>
+<ul><li><code>vdoc-1.1.0.r7.g1d57810-1-x86_64.pkg.tar.zst</code></li><li><code>vsheet-1.1.0.r7.g1d57810-1-x86_64.pkg.tar.zst</code></li><li><code>vslide-1.1.0.r7.g1d57810-1-x86_64.pkg.tar.zst</code></li><li><code>vyntaris-1.6.3-1-any.pkg.tar.zst</code></li><li><code>vyntaris-office-1.1.0.r7.g1d57810-1-x86_64.pkg.tar.zst</code></li></ul>
+<p>Everything here is signed with Vyntaris's key, <a href="vyntaris.gpg" style="color:#89b4fa">vyntaris.gpg</a>
+(<code>DB50F8DAE671C186A702415BF76DFB9390703EF9</code>):</p>
+<pre style="background:#181825;padding:1em;border-radius:8px">sudo pacman-key --add vyntaris.gpg
+sudo pacman-key --lsign-key DB50F8DAE671C186A702415BF76DFB9390703EF9
+
+[vyntaris]
+SigLevel = Required DatabaseOptional
+Server = https://binaryknight1099.github.io/vyntaris-packages</pre>
